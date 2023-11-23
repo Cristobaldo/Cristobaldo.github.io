@@ -1,7 +1,8 @@
 .bgimage {
+    width: 100%;
     height:100vh;
-    background: url('images/fondito.png');
-    background-size:cover;
+    background: url('images/patron.png');
+    background-size:auto;
     position:relative;
 }
 .bgimage img {
@@ -64,9 +65,9 @@
         font-size: 60px;
         cursor: pointer;
         position: absolute;
-        top: 60%;
-        left: 55%;
-        transform: translate(-32%, -32%);
+        top: 62%;
+        left: 58%;
+        transform: translate(-30%, -30%);
         color: white;
     }
     .fa-github:hover,.fa-linkedin:hover {
@@ -109,14 +110,21 @@
     margin-top: 20%;
     margin-left: 15%;
     }  
+    .hero_title {
+        font-size: 30px;
+    }
+    .hero_desc {
+        font-size: 15px;
+    }
     .hero-text {
     left: 32%;
-    top: 50%;
+    top: 55%;
     }
     .social-icons {
+    font-size: 50px;
     text-align: center;
      width: 70%;
-     top: 70%;
+     top: 60%;
      left: 50%;
      transform: translate(-50%);
      padding-bottom: 20px;
